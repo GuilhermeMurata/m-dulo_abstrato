@@ -2,7 +2,7 @@ package br.com.murata.abstrato;
 
 public class pessoaJuridica extends Pessoa{
 
-    public long cnpj;
+    private long cnpj;
 
     public long getCnpj() {
         return cnpj;
